@@ -26,7 +26,7 @@ SECRET_KEY = '%$*02%v!#y)o20l-$3#y)$9f&x!jdxbzrw=#(rr@8r020%@&y&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['danchua.pythonanywhere.com']
 
 
 # Application definition
@@ -123,3 +123,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR,
 ]
+
+STATIC_ROOT = '/home/danchua/first_project/first_project/static'
